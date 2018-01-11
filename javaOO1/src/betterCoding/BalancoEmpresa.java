@@ -13,6 +13,7 @@ public class BalancoEmpresa {
 
 	}
 
+	// Pays debt
 	public void pagarDivida(String cnpjCredor, double valor) {
 		Divida divida = dividas.get(cnpjCredor);
 		if (dividas != null) {
